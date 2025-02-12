@@ -423,6 +423,7 @@ a:after {
   }
 }
 
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .hero, .education, .experience, .project {
@@ -582,7 +583,32 @@ a:after {
     padding-bottom: 0px;
   }
 
-  .footer-mid {
+  /* .footer-mid {
     display: none;
+  } */
+  .footer-left {
+    display: none;
+  }
+}
+
+@media (max-width: 740px) {
+  .action-button-nav {
+    font-size: 14px;
+  }
+  .hero-content h1 {
+    font-size: 35px;
+  }
+  .hero-description {
+    text-align: justify;
+    padding-right: 18px;
+  }
+  .button-group button > img {
+    display: block !important;
+  }
+  .button-group button {
+    text-indent: -9999px;
+  }
+  .contact-form-div {
+    padding: 25px 0px;
   }
 }

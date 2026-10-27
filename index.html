@@ -1,356 +1,451 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Piyush Mohan - Portfolio</title>
-    <link rel="stylesheet" href="styles2.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Piyush Mohan · Data Scientist</title>
+  <meta name="description" content="Piyush Mohan, Data Scientist: data pipelines, model evaluation and interactive dashboards across transport, retail, environmental research and education.">
+  <meta property="og:title" content="Piyush Mohan · Data Scientist">
+  <meta property="og:description" content="Pipelines, models and visuals people can act on.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/projects/PIPVIS/display-copy/PIPVIS-MAIN-banner.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Main Container -->
-    <div class="container">
-        <!-- Header/Navigation -->
-        <header class="header">
-            <nav class="nav-container">
-                <div class="logo">Portfolio</div>
-                <div class="nav-button-group">
-                  <button class="action-button-nav"><a href="#project-header">Projects</a></button>
-                  <button class="action-button-nav"><a href="#skills">Skills</a></button>
-                  <button class="action-button-nav"><a href="#contact">Contact</a></button>
-                </div>
-            </nav>
-        </header>
 
-        <!-- Hero Section -->
-        <section class="hero">
-          <div class="avatar"><img src="images/avatar/avatartion-02-closed.png" alt=""></div>
-          <!-- <img data="images/avatar/avartation.png" width="300" height="300"> -->
-            <div class="hero-left">
-              
-                <div class="hero-content">
-                    <h1><span class="hero-greeting" id="gradient-text">Hello, I'm</span><br>Piyush Mohan</h1>
-                </div>
-            </div>
-            <div class="hero-right">
-                <div class="button-group">
-                    <a target="_blank" href="https://drive.google.com/file/d/1QjDIlP_XD0DG3EBIBu_75m90hb66E9Y5/view?usp=drive_link"><button class="action-button" id="resume-btn"><img src="images/icons/document-dark.png" width="18">Resume</button></a>
-                    <a target="_blank" href="https://www.linkedin.com/in/piyush-mohan-a997271b7/"><button class="action-button" id="resume-btn"><img src="images/icons/linkedin.png" width="18">LinkedIn</button></a>
-                    <a target="_blank" href="https://piyushmohan01.medium.com/"><button class="action-button" id="resume-btn"><img src="images/icons/medium.png" width="18">Medium</button></a>
-                </div>
-                <p class="hero-description">
-                  Welcome to my portfolio! I'm a data enthusiast with a knack for uncovering actionable insights from complex datasets. My journey has equipped me with strong leadership, communication, and problem-solving skills, allowing me to collaborate across diverse teams and deliver results that drive growth and efficiency. Explore my work to see how I use data and innovation to create meaningful impact.
-                </p>
-            </div>
-        </section>
-
-        <!-- Education Section -->
-        <section class="education">
-            <div class="education-left">
-                <h2>Education</h2>
-            </div>
-            <div class="education-right">
-                <div class="education-item">
-                    <div class="number">1</div>
-                    <div class="content">
-                        <h3>MSc. Data Science & Analytics</h3>
-                        <p>-/ University of Leeds, 2023-24 - First Class with Distinction</p>
-                        <p>-/ Dissertation - Digital Twin for National Student Surveys (NSS)</p>
-                    </div>
-                </div>
-                <div class="education-item">
-                    <div class="number">2</div>
-                    <div class="content">
-                        <h3>BTech. Computer Science & Engineering</h3>
-                        <p>-/ SRMIST, 2019-23 - First Class with Distinction (9.30/10)</p>
-                        <p>-/ Dissertation - Indian Sign Language Recognition System (ISLCR)</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Projects Section -->
-        <section class="projects">
-            <h2 class="section-title" id="project-header">Projects</h2>
-            
-            <!-- Project 1: Digital Twin -->
-            <div class="project">
-                <div class="project-left" id="project-switch-left">
-                    <div class="project-image">
-                        <img src="images/model-03-structure.png" alt="Digital Twin Project">
-                    </div>
-                    <div class="skills-section">
-                        <h3>Skills & Tech :</h3>
-                        <p>Data Processing, Data Analytics, Data Visualization, Deep Learning, Research, Technical Writing</p>
-                    </div>
-                </div>
-                <div class="project-right" id="project-switch-right">
-                    <div class="project-content">
-                        <h3>Digital Twin for UK's National Student Survey (NSS) - Dissertation</h3>
-                        <p>Dissertation for Master's course focused on building AI Digital Twins for the National Student Survey data. The project accommodates changes in the survey format while also understanding difference in student responses across countries. Highlights data understanding & operations along with knowledge of AI methods and extensive research.</p>
-                        <div class="project-links">
-                            <a target="_blank" href="https://drive.google.com/file/d/1pIaSQeuwMIr7kaisAWjHednSJOwUdvVQ/view?usp=sharing"><button class="action-button">Report</button></a>
-                            <a target="_blank" href="https://drive.google.com/drive/folders/1ZONnV8QwZ9UPhBQxoD5NivTGvpyhjIBU?usp=drive_link"><button class="action-button">Gallery</button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Project 2: FIFA-STAT -->
-            <div class="project">
-                <div class="project-left">
-                    <div class="project-content">
-                        <h3>FIFA-STAT</h3>
-                        <p>Stat Visualizer Dashboard for Player attributes in the FIFA game franchise built using Dash and Plotly. Makes use of several visualizations, data operations, and dashboard functions to provide a simple and efficient platform for FIFA-analytics.</p>
-                        <div class="project-links">
-                            <a target="_blank" href="https://github.com/piyushmohan01/FIFA-STAT"><button class="action-button">Github</button></a>
-                            <a target="_blank" href="https://blog.devgenius.io/fifa-stat-bb3560543400"><button class="action-button">Medium</button></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-right">
-                    <div class="project-image">
-                        <img src="images/dashboard-full-screenshot.png" alt="FIFA-STAT Project">
-                    </div>
-                    <div class="skills-section">
-                        <h3>Skills & Tech :</h3>
-                        <p>Dash, Plotly, Python, Data Visualisation, Data Analytics, Dashboard Building, Computer Vision, Visual Analytics</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Project 3: Sign Language -->
-            <div class="project">
-                <div class="project-left" id="project-switch-left">
-                    <div class="project-image">
-                        <img src="images/output-split-transformed.png" alt="Sign Language Project">
-                    </div>
-                    <div class="skills-section">
-                        <h3>Skills & Tech :</h3>
-                        <p>Computer Vision, Tensorflow, Scikit-Learn, Deep Learning, Artificial Intelligence, Python, Image Processing, Research</p>
-                    </div>
-                </div>
-                <div class="project-right" id="project-switch-right">
-                    <div class="project-content">
-                        <h3>Indian Sign-Language Recognition System - Dissertation</h3>
-                        <p>Vision based Character Recognition System built with Deep Learning, Python, and OpenCV for Indian Sign Language characters. Operates on a Computer Vision based application that takes live camera feed as input and produces text for the character captured and predicted.</p>
-                        <div class="project-links">
-                            <a target="_blank" href="https://ieeexplore.ieee.org/document/10193309"><button class="action-button">Paper</button></a>
-                            <a target="_blank" href="https://drive.google.com/file/d/16uwktexj9Qubd1eUk7AELyvlJ8pyPynR/view?usp=sharing"><button class="action-button">Report</button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Project 4: CycloFit -->
-            <div class="project">
-              <div class="project-left">
-                  <div class="project-content">
-                      <h3>CycloFit</h3>
-                      <p>Flask-based web application for Cyclists to interact with their cycling progress. Consists of a login system, password reset methods, data entry forms, several ChartJS charts to visualize data, and a custom point system & leaderboard system to gamify the cycling progress. Uses SQLite and SQLAlchemy databases for seamless data handling.</p>
-                      <div class="project-links">
-                          <a target="_blank" href="https://github.com/piyushmohan01/CycloFit-SEPM"><button class="action-button">Github</button></a>
-                          <a target="_blank" href="https://drive.google.com/drive/folders/1mzlQqhQhMRrQxTF4Bw1ZIW6DuRICpuXl?usp=sharing"><button class="action-button">Gallery</button></a>
-                      </div>
-                  </div>
-              </div>
-              <div class="project-right">
-                  <div class="project-image">
-                      <img src="images/CycloFit-banner.png" alt="FIFA-STAT Project">
-                  </div>
-                  <div class="skills-section">
-                      <h3>Skills & Tech :</h3>
-                      <p>Flask, SQLite, SQLAlchemy, Bootstrap, ChartJS, HTML, CSS, Pillow, Web/Mobile Application, Data Handling, UI/UX</p>
-                  </div>
-              </div>
-            </div>
-        </section>
-
-        <!-- Experience Section -->
-        <section class="experience">
-          
-            <div class="experience-left">
-                <div class="experience-list">
-                    <div class="experience-item">
-                        <div class="number">1</div>
-                        <div class="content">
-                            <h3>Technology Consultant (Part-Time)</h3>
-                            <p>Ayris Global, Sept-2024 to Present</p>
-                            <p>-/ Collaborated with 3 senior managers to optimise and align data strategies with business objectives</p>
-                            <p>-/ Assisted in designing efficient database pipelines, saving approximately 10% of technical resources</p>
-                            <p>-/ Advised on developing corporate profiles for networking platforms such as LinkedIn and Glassdoor</p>
-                        </div>
-                    </div>
-                    <div class="experience-item">
-                        <div class="number">2</div>
-                        <div class="content">
-                            <h3>Data Analytics Intern</h3>
-                            <p>AdVenture NorthEast, Sept-2024 to Oct-2024</p>
-                            <p>-/ Designed and successfully built in-house analytics dashboard focusing on the company’s strategies</p>
-                            <p>-/ Assisted in building predictive models that helped in customer segmentation and forecasting sales</p>
-                            <p>-/ Presented the work to the strategy team with data-driven recommendations for future dashboards</p>
-                        </div>
-                    </div>
-                    <div class="experience-item">
-                        <div class="number">3</div>
-                        <div class="content">
-                            <h3>ML Research Intern</h3>
-                            <p>MSRF, Mar-2022 to Sep-2022</p>
-                            <p>-/ Implemented a system using Generative Adversarial Networks for style transfer on 5 painting styles</p>
-                            <p>-/ Facilitated weekly knowledge-sharing sessions as team lead, fostering cross-functional collaboration</p>
-                            <p>-/ Collaborated with supervisors to gather requirements and ensure timely project completion</p>
-                        </div>
-                    </div>
-                    <div class="experience-item">
-                        <div class="number">4</div>
-                        <div class="content">
-                            <h3>Pausch Associate</h3>
-                            <p>Next Tech Labs SRM, Sep-2020 to Jun-2021</p>
-                            <p>-/ Led a cross-functional team in hackathons, resulting in successful completion of four projects</p>
-                            <p>-/ Mentored junior associates, contributing to overall professional development and skill acquisition</p>
-                            <p>-/ Managed the four projects with strong planning, task prioritisation, and time management skills</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="experience-right">
-              <h2>Experience</h2>
-          </div>
-            
-        </section>
-
-        <!-- Skills Section -->
-<section class="skills">
-  <!-- <h2 class="section-title">Skills</h2> -->
-  
-  <!-- Technical Skills -->
-  <div class="skills-category" id="skills">
-      <div class="skills-header">Technical</div>
-      <div class="skills-content">
-          <!-- Programming Languages & Tools -->
-          <div class="skills-group">
-              <button class="action-button-skill">Python</button>
-              <button class="action-button-skill">R</button>
-              <button class="action-button-skill">SQL</button>
-              <button class="action-button-skill">C++</button>
-              <button class="action-button-skill">Dash</button>
-              <button class="action-button-skill">Plotly</button>
-              <button class="action-button-skill">Flask</button>
-          </div>
-          
-          <!-- Data Tools -->
-          <div class="skills-group">
-              <button class="action-button-skill">Tableau</button>
-              <button class="action-button-skill">Folium</button>
-              <button class="action-button-skill">Regex</button>
-              <button class="action-button-skill">Matlab</button>
-              <button class="action-button-skill">MS-Excel</button>
-          </div>
-          
-          <!-- Libraries -->
-          <div class="skills-group">
-              <button class="action-button-skill">Numpy</button>
-              <button class="action-button-skill">Pandas</button>
-              <button class="action-button-skill">Tensorflow</button>
-              <button class="action-button-skill">SQLite</button>
-              <button class="action-button-skill">SQLAlchemy</button>
-          </div>
-          
-          <!-- Additional Tools -->
-          <div class="skills-group">
-              <button class="action-button-skill">Streamlit</button>
-              <button class="action-button-skill">Beautiful-Soup</button>
-          </div>
-      </div>
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="#top">Piyush Mohan</a>
+    <nav class="nav-links" aria-label="Sections">
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#publications">Publications</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </div>
+</header>
 
-  <!-- Application Skills -->
-  <div class="skills-category">
-      <div class="skills-header" id="skills-switch-header">Application</div>
-      <div class="skills-content" id="skills-switch-content">
-          <div class="skills-group">
-              <button class="action-button-skill">Data Management</button>
-              <button class="action-button-skill">Data Visualization</button>
-              <button class="action-button-skill">Statistical Analysis</button>
-          </div>
-          <div class="skills-group">
-              <button class="action-button-skill">Data Storytelling</button>
-              <button class="action-button-skill">Linear Algebra</button>
-              <button class="action-button-skill">Dashboard Development</button>
-          </div>
-          <div class="skills-group">
-              <button class="action-button-skill">Computer Vision</button>
-              <button class="action-button-skill">Predictive Modeling</button>
-              <button class="action-button-skill">Deep Learning</button>
-          </div>
-          <div class="skills-group">
-              <button class="action-button-skill">Jupyter Notebooks</button>
-              <button class="action-button-skill">Image Processing</button>
-              <button class="action-button-skill">Business Analytics</button>
-          </div>
-      </div>
-  </div>
+<main id="top">
 
-  <!-- Soft Skills -->
-  <div class="skills-category">
-      <div class="skills-header">Soft Skills</div>
-      <div class="skills-content">
-          <div class="skills-group">
-              <button class="action-button-skill">Problem Solving</button>
-              <button class="action-button-skill">Strong Communication</button>
-              <button class="action-button-skill">Adaptability</button>
-          </div>
-          <div class="skills-group">
-              <button class="action-button-skill">Meticulous</button>
-              <button class="action-button-skill">Teamwork</button>
-              <button class="action-button-skill">Critical Thinking</button>
-              <button class="action-button-skill">Creativity</button>
-          </div>
-          <div class="skills-group">
-              <button class="action-button-skill">Continuous Learning</button>
-              <button class="action-button-skill">Project Management</button>
-          </div>
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-text">
+        <img class="avatar" src="images/avatar/profile-LIDA-320.png" alt="Portrait of Piyush Mohan" width="160" height="160">
+        <h1 class="hero-name">Piyush Mohan</h1>
+        <p class="hero-role">Data Scientist · Leeds, UK</p>
+        <p class="hero-tagline">Turning large and messy datasets into pipelines, models and data tools that people can act on.</p>
+        <p class="lead">Glad to see you here! I’m Piyush, a data scientist with experience across transport, retail, environmental research and education. I’ve built pipelines processing over 160 million records, evaluated machine learning models to find out why they fail, and designed interactive dashboards for researchers, engineers and commercial partners.</p>
+
+        <ul class="highlights" aria-label="Highlights">
+          <li><strong>3</strong> research papers</li>
+          <li><strong>2</strong> published case studies</li>
+          <li><strong>7</strong> talks and presentations</li>
+          <li><strong>Highly Commended Early Career Researcher Award (2026)</strong></li>
+        </ul>
+
+        <div class="btn-row">
+          <!-- TODO: add your CV as files/Piyush-Mohan-CV.pdf -->
+          <a class="btn btn--solid" href="files/Piyush-Mohan-CV.pdf" target="_blank" rel="noopener">Resume</a>
+          <a class="btn" href="https://www.linkedin.com/in/piyush-mohan-a997271b7/" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn" href="https://github.com/piyushmohan01" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn" href="https://piyushmohan01.medium.com/" target="_blank" rel="noopener">Medium</a>
         </div>
+      </div>
+    </div>
+
+    <!-- Arc carousel: images travel from the top-right, sweep left to the
+         centre (largest) and return to the right edge. -->
+    <div class="arc" aria-label="Project highlights">
+      <a class="arc-card" href="#pipvis"><img src="images/projects/PIPVIS/display-copy/PIPVIS-MAIN-banner.jpg" alt="PIPVIS dashboard"><span>PIPVIS</span></a>
+      <a class="arc-card" href="#sfse"><img src="images/projects/SFSE/display-copy/SFSE-MAIN-banner.jpg" alt="Sustainable Food Sales Explorer dashboard"><span>Food Sales Explorer</span></a>
+      <a class="arc-card" href="#nss-dt"><img src="images/projects/NSS-DT/display-copy/NSS-DT-MAIN-banner.jpg" alt="NSS digital twins project"><span>NSS Digital Twins</span></a>
+      <a class="arc-card" href="#islcr"><img src="images/projects/ISLCR/display-copy/ISLCR-MAIN-banner.jpg" alt="Sign language recognition system"><span>Sign Language Recognition</span></a>
+      <a class="arc-card" href="#fifa-stat"><img src="images/projects/FIFA-STAT/display-copy/FIFA-STAT-MAIN-banner.jpg" alt="FIFA-STAT dashboard"><span>FIFA-STAT</span></a>
+      <a class="arc-card" href="#nyc-vcv"><img src="images/projects/NYC-VCV/display-copy/NYC-VCV-MAIN-banner.jpg" alt="NYC vehicle collision map"><span>NYC Collisions</span></a>
+      <a class="arc-card" href="#cyclofit"><img src="images/projects/CycloFit/display-copy/CycloFit-MAIN-banner.jpg" alt="CycloFit web application"><span>CycloFit</span></a>
     </div>
   </section>
-<div class="contact-section" id="contact">
-  <div class="contact-form-div">
 
-    <iframe
-      class="jotform-class"
-      id="JotFormIFrame-250396678312362"
-      title="General Inquiry Contact Form"
-      onload="window.parent.scrollTo(0,0)"
-      allowtransparency="true"
-      allow="geolocation; microphone; camera; fullscreen"
-      src="https://form.jotform.com/250396678312362"
-      frameborder="0"
-      style="width:600px;height:600px;border:none;"
-      scrolling="no"
-    >
-    </iframe>
-    <script src='https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js'></script>
-    <script>window.jotformEmbedHandler("iframe[id='JotFormIFrame-250396678312362']", "https://form.jotform.com/")</script>
-    
-  </div> 
-  <div class="contact-outro">
-    Thank you for viewing my portfolio! I'm currently looking for full-time roles in the Data sector and would love to hear from you. Whether you are seeking full-time roles yourself or hiring for an opening, you can get in touch with me through the contact form or by messaging me directly on <a href="https://www.linkedin.com/in/piyush-mohan-a997271b7/" class="linkedin-link">LinkedIn</a>. Thanks again!
-  </div> 
-</div>
+  <!-- ============ EXPERIENCE ============ -->
+  <section class="section" id="experience">
+    <div class="wrap wrap--narrow">
+      <div class="section-head">
+        <p class="eyebrow">01</p>
+        <h2>Experience</h2>
+      </div>
 
-<div class="footer-section">
-  <div class="footer-left">
-    Piyush Mohan
-  </div>
-  <div class="footer-mid">
-    Portfolio
-  </div>
-  <div class="footer-right">
-    piyushmohan01@gmail.com
-  </div>
-</div>
-  
+      <ol class="timeline">
+        <li class="role">
+          <div class="role-meta"><span class="dates">Sep 2025 – Sep 2026</span><span class="org">Leeds Institute for Data Analytics, University of Leeds</span></div>
+          <div class="role-body">
+            <h3>Data Scientist, Data Scientist Development Programme</h3>
+            <ul>
+              <li>Sole technical lead on two end-to-end projects with SYSTRA UK &amp; Ireland and a major UK supermarket retailer, from raw data to pipelines, analysis and interactive dashboards.</li>
+              <li>Linked 160 million product sales across 27,000 products to environmental impact data, contributing to a paper accepted by the International Journal of Behavioral Nutrition and Physical Activity.</li>
+              <li>Evaluated a pedestrian intention prediction model across six hours of dashcam footage, identifying a failure mechanism and a practical fix; awarded Highly Commended Early Career Researcher at Digital Footprints 2026.</li>
+              <li>Shared results through two accepted papers, two published case studies, seven presentations and bi-weekly updates to the retail partner.</li>
+            </ul>
+          </div>
+        </li>
 
+        <li class="role">
+          <div class="role-meta"><span class="dates">Sep 2024 – Aug 2025</span><span class="org">Ayris Global</span></div>
+          <div class="role-body">
+            <h3>Technology Consultant</h3>
+            <ul>
+              <li>Validated 5+ time-series forecasting models against external benchmarks, improving forecast accuracy by 12% through sensitivity analysis and model refinement.</li>
+              <li>Redesigned departmental reporting into a fully automated process across 3 workflows, turning technical outputs into decision-ready insight.</li>
+              <li>Worked with 3 senior managers to align data strategy with business goals, building a shared data vocabulary that saved time and technical resources.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="role">
+          <div class="role-meta"><span class="dates">Aug 2024 – Oct 2024</span><span class="org">AdVenture NorthEast</span></div>
+          <div class="role-body">
+            <h3>Data Analytics Intern</h3>
+            <ul>
+              <li>Built prototype KPI-tracking dashboards in Plotly and Dash, consolidating earlier models and static charts into one tool for strategy and data teams.</li>
+              <li>Improved predictive models for sales forecasting and customer segmentation, and presented data-driven recommendations to the strategy team in a detailed case study.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="role">
+          <div class="role-meta"><span class="dates">Mar 2022 – Sep 2022</span><span class="org">Madras Scientific Research Foundation</span></div>
+          <div class="role-body">
+            <h3>Machine Learning Research Intern</h3>
+            <ul>
+              <li>Implemented style transfer with Generative Adversarial Networks across 5 painting styles, as part of a review of AI systems for art education.</li>
+              <li>Led weekly knowledge-sharing sessions for an interdisciplinary research team and coordinated with reviewers on early results.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="role">
+          <div class="role-meta"><span class="dates">Sep 2020 – Jun 2021</span><span class="org">Next Tech Labs, SRM Institute of Science and Technology</span></div>
+          <div class="role-body">
+            <h3>Pausch Associate</h3>
+            <ul>
+              <li>Led a cross-functional team through hackathons, delivering 4 projects from concept to submission.</li>
+              <li>Mentored junior associates on technical skills and project planning, grounded in human-computer interaction principles.</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
     </div>
+  </section>
+
+  <!-- ============ PROJECTS ============
+       Collage layouts (data-layout):
+       A = hero on top, three below · D = three on top, hero below (alternating)
+       The first tile is always the hero. data-full = original for the viewer. -->
+  <section class="section" id="projects">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">02</p>
+        <h2>Projects</h2>
+      </div>
+
+      <!-- PIPVIS -->
+      <article class="project" id="pipvis">
+        <div class="project-text">
+          <p class="tags">Explainable AI · Computer vision data · Dashboard</p>
+          <h3>PIPVIS: Explaining AI Predictions of Pedestrian Behaviour</h3>
+          <p>Autonomous vehicles rely on AI to predict whether a pedestrian will cross, but these models are hard to debug. With SYSTRA UK &amp; Ireland and transport AI researchers, I built an award-winning interactive dashboard that explains a model's decisions using six hours of dashcam footage (about 300,000 labelled frames and 1,842 pedestrians).</p>
+          <p>The model scored 91.4% on validation data, and the dashboard showed why the rest failed: in several missed crossings, the pose estimator had locked onto a nearby occluding pedestrian. The team now has a concrete fix to test. Awarded Highly Commended Early Career Researcher at Digital Footprints 2026.</p>
+          <p class="skills"><span>Python</span><span>D3.js</span><span>Observable</span><span>Data pipelines</span><span>OpenPose · RAFT · DeepLabV3+ outputs</span><span>Model evaluation</span><span>Explainable AI</span></p>
+          <div class="btn-row">
+            <a class="btn btn--solid" href="https://observablehq.com/d/41ea89895dd12b44" target="_blank" rel="noopener">Live dashboard</a>
+            <a class="btn" href="https://doi.org/10.23889/ijpds.v11i4.3795" target="_blank" rel="noopener">Paper</a>
+            <a class="btn" href="https://lida.leeds.ac.uk/research-projects/interpretable-ai-for-pedestrian-intention-prediction-a-data-driven-visualisation-approach/" target="_blank" rel="noopener">Case study</a>
+            <a class="btn" href="https://github.com/piyushmohan01/PIPVIS-Image-Base" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn" href="https://github.com/piyushmohan01/PIPVIS-Image-Base/blob/master/PIPVIS-Dashboard-Demo.mp4" target="_blank" rel="noopener">Demo video</a>
+          </div>
+        </div>
+        <div class="collage" data-layout="A">
+          <button class="tile" type="button" data-full="images/projects/PIPVIS/PIPVIS-MAIN-banner.png"><img src="images/projects/PIPVIS/display-copy/PIPVIS-MAIN-banner.jpg" alt="PIPVIS dashboard overview"></button>
+          <button class="tile" type="button" data-full="images/projects/PIPVIS/IMG-1-depth-sem-full.png"><img src="images/projects/PIPVIS/display-copy/IMG-1-depth-sem-full.jpg" alt="Full-scale frame with depth and semantic segmentation overlays" loading="lazy"></button>
+          <button class="tile" type="button" data-full="images/projects/PIPVIS/IMG-2-pose-semantic-FP.png"><img src="images/projects/PIPVIS/display-copy/IMG-2-pose-semantic-FP.jpg" alt="Body pose and semantic overlays on a false-positive case" loading="lazy"></button>
+          <button class="tile" type="button" data-full="images/projects/PIPVIS/IMG-3-TP-stat-hover.png"><img src="images/projects/PIPVIS/display-copy/IMG-3-TP-stat-hover.jpg" alt="Model diagnosis treemap with hover statistics" loading="lazy"></button>
+        </div>
+      </article>
+
+      <!-- SFSE -->
+      <article class="project project--flip" id="sfse">
+        <div class="project-text">
+          <p class="tags">Data engineering · Sustainability analytics · Dashboard</p>
+          <h3>Sustainable Food Sales Explorer: Seasonal Footprint of UK Food Purchasing</h3>
+          <p>Every shopping basket carries a carbon, land and water footprint, but how that changes through the year had never been measured at this level of detail. I built a Python pipeline linking 160 million product sales from a major UK retailer to environmental impact data, and a D3.js dashboard that lets researchers explore weekly footprints across up to 65 food categories, with overlays for holidays, cultural events, school terms, heatwaves and sporting events.</p>
+          <p>Our festive analysis found emissions from food sales rose 15.3% in December. Per-kilogram emissions also rose 6.6%, showing that the mix of products changed, not just the amount bought.</p>
+          <p class="note">Dashboard shown with dummy data; the live version will be hosted by the Healthy and Sustainable Places Data Service.</p>
+          <p class="skills"><span>Python</span><span>ETL pipelines</span><span>Secure research environments</span><span>D3.js</span><span>JSON data design</span><span>Time-series analysis</span><span>Data visualisation</span></p>
+          <div class="btn-row">
+            <a class="btn btn--solid" href="https://piyushmohan01.github.io/FIO-Sustainability-Dashboard-Repo/" target="_blank" rel="noopener">Live prototype</a>
+            <a class="btn" href="https://doi.org/10.31235/osf.io/vztd2_v1" target="_blank" rel="noopener">Paper</a>
+            <a class="btn" href="https://lida.leeds.ac.uk/research-projects/visualising-seasonal-variation-of-environmental-impact-from-food-purchases-in-the-uk/" target="_blank" rel="noopener">Case study</a>
+            <a class="btn" href="https://github.com/piyushmohan01/FIO-Sustainability-Dashboard-Repo" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+        <div class="collage" data-layout="D">
+          <button class="tile" type="button" data-full="images/projects/SFSE/SFSE-MAIN-banner.png"><img src="images/projects/SFSE/display-copy/SFSE-MAIN-banner.jpg" alt="Sustainable Food Sales Explorer dashboard overview" loading="lazy"></button>
+          <button class="tile" type="button" data-full="images/projects/SFSE/IMG-1-GHGE-timeline.png"><img src="images/projects/SFSE/display-copy/IMG-1-GHGE-timeline.jpg" alt="Greenhouse gas emissions timeline chart" loading="lazy"></button>
+          <button class="tile" type="button" data-full="images/projects/SFSE/IMG-2-Per-Kg-heatmap.png"><img src="images/projects/SFSE/display-copy/IMG-2-Per-Kg-heatmap.jpg" alt="Per-kilogram footprint heatmap by food category" loading="lazy"></button>
+          <button class="tile" type="button" data-full="images/projects/SFSE/IMG-3-LU-timeline.png"><img src="images/projects/SFSE/display-copy/IMG-3-LU-timeline.jpg" alt="Land use timeline chart" loading="lazy"></button>
+        </div>
+      </article>
+
+      <!-- NSS Digital Twins -->
+      <article class="project" id="nss-dt">
+        <div class="project-text">
+          <p class="tags">Machine learning · Simulation · MSc dissertation</p>
+          <h3>Digital Twins for the UK National Student Survey</h3>
+          <p>I built AI-powered digital twins that simulate student survey responses across England, Wales and Scotland using three years of National Student Survey data. Regression and deep learning models identified the drivers of satisfaction and handled changes in the survey's format between years. Awarded a Distinction for analytical rigour and documentation.</p>
+          <p class="skills"><span>Python</span><span>Regression</span><span>Deep learning</span><span>Survey data</span><span>LaTeX</span><span>Technical writing</span></p>
+          <div class="btn-row">
+            <a class="btn btn--solid" href="https://drive.google.com/file/d/1pIaSQeuwMIr7kaisAWjHednSJOwUdvVQ/view?usp=drive_link" target="_blank" rel="noopener">Report</a>
+            <a class="btn" href="https://drive.google.com/drive/folders/1ZONnV8QwZ9UPhBQxoD5NivTGvpyhjIBU" target="_blank" rel="noopener">Gallery</a>
+          </div>
+        </div>
+        <div class="collage" data-layout="A">
+          <button class="tile" type="button" data-full="images/projects/NSS-DT/NSS-DT-MAIN-banner.png"><img src="images/projects/NSS-DT/display-copy/NSS-DT-MAIN-banner.jpg" alt="NSS digital twins project overview" loading="lazy"></button>
+          <button class="tile" type="button" data-full="images/projects/NSS-DT/IMG-1-Data-Pipeline.png"><img src="images/projects/NSS-DT/display-copy/IMG-1-Data-Pipeline.jpg" alt="Data pipeline diagram" loading="lazy"></button>
+          <button class="tile" type="button" data-full="images/projects/NSS-DT/IMG-2-Model-Architectures.png"><img src="images/projects/NSS-DT/display-copy/IMG-2-Model-Architectures.jpg" alt="Model architecture diagrams" loading="lazy"></button>
+          <button class="tile" type="button" data-full="images/projects/NSS-DT/IMG-3-Subset-Logic-Map.png"><img src="images/projects/NSS-DT/display-copy/IMG-3-Subset-Logic-Map.jpg" alt="Subset logic map" loading="lazy"></button>
+        </div>
+      </article>
+
+      <!-- ISLCR -->
+      <article class="project project--flip" id="islcr">
+        <div class="project-text">
+          <p class="tags">Deep learning · Computer vision · B.Tech dissertation</p>
+          <h3>Indian Sign Language Recognition System</h3>
+          <p>A real-time system that recognises Indian Sign Language characters from a live camera feed, built with TensorFlow and OpenCV. Most research covers American Sign Language, so this focused on challenges specific to ISL, including gesture recognition and skin segmentation, while keeping the system resource-efficient. Published as first author at IEEE ICESC 2023.</p>
+          <p class="skills"><span>Python</span><span>TensorFlow</span><span>OpenCV</span><span>CNNs</span><span>Image processing</span><span>Research</span></p>
+          <div class="btn-row">
+            <a class="btn btn--solid" href="https://ieeexplore.ieee.org/document/10193309" target="_blank" rel="noopener">Paper</a>
+            <a class="btn" href="https://drive.google.com/file/d/16uwktexj9Qubd1eUk7AELyvlJ8pyPynR/view" target="_blank" rel="noopener">Report</a>
+          </div>
+        </div>
+        <div class="collage" data-layout="D">
+          <button class="tile" type="button" data-full="images/projects/ISLCR/ISLCR-MAIN-banner.png"><img src="images/projects/ISLCR/display-copy/ISLCR-MAIN-banner.jpg" alt="Sign language recognition system overview" loading="lazy"></button>
+          <button class="tile" type="button" data-full="images/projects/ISLCR/IMG-1-Architecture-Diagram-1.png"><img src="images/projects/ISLCR/display-copy/IMG-1-Architecture-Diagram-1.jpg" alt="System architecture diagram, part 1" loading="lazy"></button>
+          <button class="tile" type="button" data-full="images/projects/ISLCR/IMG-2-Image-Augmentation.png"><img src="images/projects/ISLCR/display-copy/IMG-2-Image-Augmentation.jpg" alt="Image augmentation examples" loading="lazy"></button>
+          <button class="tile" type="button" data-full="images/projects/ISLCR/IMG-3-Architecture-Diagram-2.png"><img src="images/projects/ISLCR/display-copy/IMG-3-Architecture-Diagram-2.jpg" alt="System architecture diagram, part 2" loading="lazy"></button>
+        </div>
+      </article>
+
+      <!-- FIFA-STAT -->
+      <article class="project" id="fifa-stat">
+        <div class="project-text">
+          <p class="tags">Dashboard · Python · Published article</p>
+          <h3>FIFA-STAT: Player Statistics Dashboard</h3>
+          <p>An interactive Dash and Plotly dashboard covering six seasons of FIFA player data (FIFA 18–23), letting users explore in-game statistics and track player growth against real-world performance. A Medium article on the app increased dashboard traffic by 15% by month three.</p>
+          <p class="skills"><span>Python</span><span>Dash</span><span>Plotly</span><span>Data visualisation</span></p>
+          <div class="btn-row">
+            <a class="btn btn--solid" href="https://github.com/piyushmohan01/FIFA-STAT" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn" href="https://medium.com/dev-genius/fifa-stat-bb3560543400" target="_blank" rel="noopener">Medium article</a>
+          </div>
+        </div>
+        <div class="collage" data-layout="A">
+          <button class="tile" type="button" data-full="images/projects/FIFA-STAT/FIFA-STAT-MAIN-banner.png"><img src="images/projects/FIFA-STAT/display-copy/FIFA-STAT-MAIN-banner.jpg" alt="FIFA-STAT dashboard overview" loading="lazy"></button>
+          <button class="tile" type="button" data-full="images/projects/FIFA-STAT/IMG-1-Player-Position.png"><img src="images/projects/FIFA-STAT/display-copy/IMG-1-Player-Position.jpg" alt="Player position view" loading="lazy"></button>
+          <button class="tile" type="button" data-full="images/projects/FIFA-STAT/IMG-2-Player-Sample-1.png"><img src="images/projects/FIFA-STAT/display-copy/IMG-2-Player-Sample-1.jpg" alt="Player statistics sample 1" loading="lazy"></button>
+          <button class="tile" type="button" data-full="images/projects/FIFA-STAT/IMG-3-Player-Sample-2.png"><img src="images/projects/FIFA-STAT/display-copy/IMG-3-Player-Sample-2.jpg" alt="Player statistics sample 2" loading="lazy"></button>
+        </div>
+      </article>
+
+      <!-- NYC VCV -->
+      <article class="project project--flip" id="nyc-vcv">
+        <div class="project-text">
+          <p class="tags">Hackathon · Geospatial visualisation · Runner-Up</p>
+          <h3>NYC Vehicle Collision Visualisation</h3>
+          <p>An interactive mapping tool built on MecSimCalc that plots more than 300,000 New York City vehicle collisions by location and time period, with sorting and mapping options for exploring where and when collisions cluster. Placed Runner-Up at MecSimCalc Hackathon 4.0.</p>
+          <p class="skills"><span>Python</span><span>Geospatial data</span><span>Mapping</span><span>MecSimCalc</span></p>
+          <div class="btn-row">
+            <a class="btn btn--solid" href="https://devpost.com/software/new-york-vehicle-collision-visualization" target="_blank" rel="noopener">Devpost</a>
+            <a class="btn" href="https://docs.mecsimcalc.com/blog/Comp12172022-Winners" target="_blank" rel="noopener">Winners blog</a>
+          </div>
+        </div>
+        <div class="collage" data-layout="D">
+          <button class="tile" type="button" data-full="images/projects/NYC-VCV/NYC-VCV-MAIN-banner.png"><img src="images/projects/NYC-VCV/display-copy/NYC-VCV-MAIN-banner.jpg" alt="NYC vehicle collision map overview" loading="lazy"></button>
+          <button class="tile" type="button" data-full="images/projects/NYC-VCV/IMG-1-Sample-2016.png"><img src="images/projects/NYC-VCV/display-copy/IMG-1-Sample-2016.jpg" alt="Collisions by borough, 2016 sample" loading="lazy"></button>
+          <button class="tile" type="button" data-full="images/projects/NYC-VCV/IMG-2-Dashboard-input.png"><img src="images/projects/NYC-VCV/display-copy/IMG-2-Dashboard-input.jpg" alt="MecSimCalc input controls" loading="lazy"></button>
+          <button class="tile" type="button" data-full="images/projects/NYC-VCV/IMG-3-Sample-2015.png"><img src="images/projects/NYC-VCV/display-copy/IMG-3-Sample-2015.jpg" alt="Collisions by borough, 2015 sample" loading="lazy"></button>
+        </div>
+      </article>
+
+      <!-- CycloFit -->
+      <article class="project" id="cyclofit">
+        <div class="project-text">
+          <p class="tags">Full-stack · SQL databases · Semester project</p>
+          <h3>CycloFit</h3>
+          <p>A Flask web application for cyclists to log and track their progress, with secure login, data entry forms, Chart.js visualisations and a points and leaderboard system. Built on SQLite and SQLAlchemy as a semester software engineering project.</p>
+          <p class="skills"><span>Flask</span><span>SQLite</span><span>SQLAlchemy</span><span>Chart.js</span><span>HTML</span><span>CSS</span></p>
+          <div class="btn-row">
+            <a class="btn btn--solid" href="https://github.com/piyushmohan01/CycloFit-SEPM" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn" href="https://drive.google.com/drive/folders/1mzlQqhQhMRrQxTF4Bw1ZIW6DuRICpuXl?usp=sharing" target="_blank" rel="noopener">Gallery</a>
+          </div>
+        </div>
+        <div class="collage" data-layout="A">
+          <button class="tile" type="button" data-full="images/projects/CycloFit/CycloFit-MAIN-banner.png"><img src="images/projects/CycloFit/display-copy/CycloFit-MAIN-banner.jpg" alt="CycloFit application overview" loading="lazy"></button>
+          <button class="tile" type="button" data-full="images/projects/CycloFit/IMG-1-Vertical-Snapshots.png"><img src="images/projects/CycloFit/display-copy/IMG-1-Vertical-Snapshots.jpg" alt="CycloFit app screens, set 1" loading="lazy"></button>
+          <button class="tile" type="button" data-full="images/projects/CycloFit/IMG-2-Vertical-Snapshots.png"><img src="images/projects/CycloFit/display-copy/IMG-2-Vertical-Snapshots.jpg" alt="CycloFit app screens, set 2" loading="lazy"></button>
+          <button class="tile" type="button" data-full="images/projects/CycloFit/IMG-3-Vertical-Snapshots.png"><img src="images/projects/CycloFit/display-copy/IMG-3-Vertical-Snapshots.jpg" alt="CycloFit app screens, set 3" loading="lazy"></button>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ PUBLICATIONS ============ -->
+  <section class="section" id="publications">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">03</p>
+        <h2>Publications &amp; Talks</h2>
+      </div>
+
+      <div class="card-grid">
+        <a class="card" href="https://doi.org/10.31235/osf.io/vztd2_v1" target="_blank" rel="noopener">
+          <span class="card-type">Journal paper · Co-author</span>
+          <span class="card-title">I'm Dreaming of a Green Christmas: Observational Loyalty Card Data Reveal the Health and Environmental Impacts of Festive Food Purchasing</span>
+          <span class="card-venue">Accepted, International Journal of Behavioral Nutrition and Physical Activity · Preprint available</span>
+        </a>
+        <a class="card" href="https://doi.org/10.23889/ijpds.v11i4.3795" target="_blank" rel="noopener">
+          <span class="card-type">Conference paper · Lead author</span>
+          <span class="card-title">An Interactive Visual System to Interpret Pedestrian Crossing Intention Predictions</span>
+          <span class="card-venue">International Journal of Population Data Science · Digital Footprints 2026</span>
+        </a>
+        <a class="card" href="https://doi.org/10.1109/ICESC57686.2023.10193309" target="_blank" rel="noopener">
+          <span class="card-type">Conference paper · First author</span>
+          <span class="card-title">Indian Sign Language Character Recognition System</span>
+          <span class="card-venue">IEEE ICESC 2023</span>
+        </a>
+        <a class="card" href="https://diglib.eg.org/items/18e76e9e-bd82-4d27-8873-45544b7568fa" target="_blank" rel="noopener">
+          <span class="card-type">Tutorial · Co-author</span>
+          <span class="card-title">Explainable AI visualisation tutorial</span>
+          <span class="card-venue">EuroVis · Eurographics Digital Library</span>
+        </a>
+        <a class="card" href="https://lida.leeds.ac.uk/research-projects/interpretable-ai-for-pedestrian-intention-prediction-a-data-driven-visualisation-approach/" target="_blank" rel="noopener">
+          <span class="card-type">Case study</span>
+          <span class="card-title">Interpretable AI for Pedestrian Intention Prediction</span>
+          <span class="card-venue">Leeds Institute for Data Analytics</span>
+        </a>
+        <a class="card" href="https://lida.leeds.ac.uk/research-projects/visualising-seasonal-variation-of-environmental-impact-from-food-purchases-in-the-uk/" target="_blank" rel="noopener">
+          <span class="card-type">Case study</span>
+          <span class="card-title">Visualising Seasonal Variation of Environmental Impact from Food Purchases in the UK</span>
+          <span class="card-venue">Leeds Institute for Data Analytics</span>
+        </a>
+        <div class="card card--static">
+          <span class="card-type">Talk</span>
+          <!-- TODO: confirm the talk title -->
+          <span class="card-title">Data to Dashboards</span>
+          <span class="card-venue">Internal session, Leeds Institute for Data Analytics</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ AWARDS + EDUCATION ============ -->
+  <section class="section" id="recognition">
+    <div class="wrap split">
+      <div>
+        <div class="section-head">
+          <p class="eyebrow">04</p>
+          <h2>Awards &amp; Certifications</h2>
+        </div>
+        <ul class="list">
+          <li><span class="list-title">Highly Commended Early Career Researcher</span><span class="list-sub">LIDA Digital Footprints 2026</span><a href="https://lida.leeds.ac.uk/news/lida-data-scientists-win-double-at-digital-footprints-2026/" target="_blank" rel="noopener">News article</a></li>
+          <li><span class="list-title">Distinction, MSc Data Science &amp; Analytics</span><span class="list-sub">University of Leeds</span><a href="https://lnkd.in/p/eY72qSrC" target="_blank" rel="noopener">LinkedIn post</a></li>
+          <li><span class="list-title">Runner-Up, MecSimCalc Hackathon 4.0</span><span class="list-sub">NYC Vehicle Collision Visualisation</span><a href="https://docs.mecsimcalc.com/blog/Comp12172022-Winners" target="_blank" rel="noopener">Blog post</a></li>
+          <li><span class="list-title">Microsoft Office Specialist: Excel Associate</span><span class="list-sub">Microsoft · 2023</span><a href="https://www.credly.com/badges/fbe3c0da-aad1-4fc4-8563-d665396204ea" target="_blank" rel="noopener">Credly badge</a></li>
+          <li><span class="list-title">Oracle Foundations Associate</span><span class="list-sub">Oracle · 2021</span><a href="https://drive.google.com/file/d/1ooytoKV6-KopDy6UqDwJEXQT9gFMqMGj/view" target="_blank" rel="noopener">Certificate</a></li>
+        </ul>
+      </div>
+
+      <div id="education">
+        <div class="section-head">
+          <p class="eyebrow">05</p>
+          <h2>Education</h2>
+        </div>
+        <ul class="list">
+          <li>
+            <span class="list-title">MSc Data Science &amp; Analytics · Distinction</span>
+            <span class="list-sub">University of Leeds · Sep 2023 – Dec 2024</span>
+            <span class="list-detail">Dissertation: Digital Twins for the UK National Student Survey. Modules: Statistical Learning, Business Analytics &amp; Decision Science, A/B Testing.</span>
+          </li>
+          <li>
+            <span class="list-title">B.Tech Computer Science &amp; Engineering (IoT) · CGPA 9.30/10</span>
+            <span class="list-sub">SRM Institute of Science and Technology · Jul 2019 – May 2023</span>
+            <span class="list-detail">Dissertation: Indian Sign Language Character Recognition System (IEEE). Modules: Database Management Systems (SQL), AI/ML, Big Data, Cloud Computing, UNIX, Bash.</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section" id="skills">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">06</p>
+        <h2>Skills</h2>
+      </div>
+      <dl class="skill-grid">
+        <div><dt>Programming</dt><dd>Python, SQL, R, JavaScript, Git</dd></div>
+        <div><dt>Machine learning &amp; statistics</dt><dd>Regression, time-series forecasting, CNNs, customer segmentation, model evaluation, explainable AI, A/B testing</dd></div>
+        <div><dt>Libraries</dt><dd>pandas, NumPy, scikit-learn, TensorFlow, OpenCV</dd></div>
+        <div><dt>Data engineering</dt><dd>ETL pipelines, JSON data design, SQLite, SQLAlchemy, secure research environments</dd></div>
+        <div><dt>Visualisation &amp; BI</dt><dd>D3.js, Observable, Plotly, Dash, Power BI, Excel, Chart.js</dd></div>
+        <div><dt>Communication</dt><dd>Client reporting, stakeholder updates, technical writing, presentations</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section" id="contact">
+    <div class="wrap contact">
+      <div class="contact-text">
+        <div class="section-head">
+          <p class="eyebrow">07</p>
+          <h2>Get in touch</h2>
+        </div>
+        <p class="lead">Thanks for visiting. I'm looking for full-time data science and analytics roles in the UK and I'm open to relocating. Get in touch through the form, by email at <a href="mailto:piyushmohan01@gmail.com">piyushmohan01@gmail.com</a>, or on <a href="https://www.linkedin.com/in/piyush-mohan-a997271b7/" target="_blank" rel="noopener">LinkedIn</a>.</p>
+      </div>
+      <div class="contact-form">
+        <iframe id="JotFormIFrame-250396678312362" title="Contact form" src="https://form.jotform.com/250396678312362" allow="geolocation; microphone; camera; fullscreen" allowtransparency="true" frameborder="0" scrolling="no"></iframe>
+        <script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js"></script>
+        <script>if (window.jotformEmbedHandler) window.jotformEmbedHandler("iframe[id='JotFormIFrame-250396678312362']", "https://form.jotform.com/")</script>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span>Piyush Mohan</span>
+    <a href="#top">Back to top</a>
+    <a href="mailto:piyushmohan01@gmail.com">piyushmohan01@gmail.com</a>
+  </div>
+</footer>
+
+<!-- Full-screen image viewer -->
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="lb-close" type="button" aria-label="Close (Esc)">×</button>
+  <button class="lb-prev" type="button" aria-label="Previous image">‹</button>
+  <figure>
+    <img class="lb-img" src="" alt="">
+    <figcaption><span class="lb-caption"></span><span class="lb-count"></span></figcaption>
+  </figure>
+  <button class="lb-next" type="button" aria-label="Next image">›</button>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
